@@ -1,5 +1,23 @@
 XNOR Gate (Exclusive NOR)
 Short Description:
+Your exact wiring checklist for a 2-switch project:
+Pin	Connection
+Pin 1	To DIP Switch 1 + 10k resistor to VCC
+Pin 2	To DIP Switch 2 + 10k resistor to VCC
+Pin 3	To Pins 5 and 6 (tied together)
+Pin 4	To LED cathode + 330Ω resistor anode to Vcc
+Pin 5	Tied to Pin 6 and Pin 3
+Pin 6	Tied to Pin 5 and Pin 3
+Pin 7	GND
+Pin 8	GND (unused input - tie down!)
+Pin 9	GND (unused input - tie down!)
+Pin 10	Leave unconnected (unused output)
+Pin 11	Leave unconnected (unused output)
+Pin 12	GND (unused input - tie down!)
+Pin 13	GND (unused input - tie down!)
+Pin 14	VCC (+4.5V)
+
+
 The XNOR gate outputs a HIGH (1) signal when both inputs are the SAME (both 0 or both 1). It is the exact opposite of the XOR gate.
 
 Your Truth Table (XNOR)
