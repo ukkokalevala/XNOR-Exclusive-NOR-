@@ -16,7 +16,7 @@ Pin 11	Leave unconnected (unused output)
 Pin 12	GND (unused input - tie down!)
 Pin 13	GND (unused input - tie down!)
 Pin 14	VCC (+4.5V)
-
+Place a 0.1µF ceramic capacitor between Pin 14 and Pin 7 right across the chip.
 
 The XNOR gate outputs a HIGH (1) signal when both inputs are the SAME (both 0 or both 1). It is the exact opposite of the XOR gate.
 
